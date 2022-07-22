@@ -1,0 +1,39 @@
+﻿@page
+@model Application.Pages.IntroModel
+@{
+    ViewData["Title"] = "My First Application";
+}
+
+<h2>
+    Welcome!!
+</h2>
+<h3>
+    Name : Amanjot Gill
+</h3>
+<form method="post">
+    <div>
+        Num1 :
+        <input type="number" name="FirstNumber" />
+    </div>
+    <div>
+        Num2 :
+        <input type="number" name="SecondNumber" />
+    </div>
+    <div>
+        Your Output
+        <output type="number " name=" Result"></output>
+    </div>
+    <div>
+        Submit:
+        <button type="submit" name="Submit"></button>
+    </div>
+
+
+</form>
+
+@section Section{
+    <div>
+        Paragraph:
+        <p> working on visual studio with mac is uphill task </p>
+    </div>
+}
